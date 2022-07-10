@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    height: 85vh;
+    width: 90vw;
+    background-color: #DFF6FF;
+}
+table tr{
+    align-items: center;
+}
+td{
+    font-family: 'Titan One', cursive;
+    text-align: center;
+  vertical-align: middle;
+  font-size: 42px;
+}
+ 
+.tablemain tr:nth-child(even){background-color: #47B5FF;}
+
+.r1{
+    color: whitesmoke;
+    background-color: #06283D;
+}
+.dayn{
+    font-size: 60px;
+}
+.credit{
+    margin-top: 25px;
+}
+
+.test{
+    color: palevioletred;
+}
+
+.blink_me {
+    animation: blinker 2s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
